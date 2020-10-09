@@ -6,19 +6,19 @@
 
 <script>
 // @ is an alias to /src
-import Hello from "@/components/Hello.vue";
-import { getList } from "@/api/demo";
+import Hello from '@/components/Hello.vue'
+import { getList } from '@/api/demo'
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     Hello
   },
   async mounted() {
-    const data = await getList({ f: "ff" });
-    console.log(data);
+    const data = await getList({ f: 'ff' })
+    console.log(data)
   }
-};
+}
 </script>
 
 <style scoped lang="less"></style>
