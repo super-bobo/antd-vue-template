@@ -2,8 +2,8 @@ import axios from 'axios'
 import { TIMEOUT, API_HOST } from './config'
 import { message } from 'ant-design-vue'
 
-json: 'application/json; charset=utf-8'
-form: 'application/x-www-form-urlencoded; charset=utf-8'
+// json: 'application/json; charset=utf-8'
+// form: 'application/x-www-form-urlencoded; charset=utf-8'
 const request = axios.create({
   baseURL: API_HOST,
   timeout: TIMEOUT,
